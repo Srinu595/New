@@ -8,8 +8,8 @@ public class Employee {
 	
 	@RequestMapping("/emp")
 	public String home() {
+		System.out.print("printed");
 		return ("<h4>welcome</h4>");
-		
 	}
 
 }
